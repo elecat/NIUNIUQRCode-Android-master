@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchMatch.Vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/scan_qrcode"
+        android:layout_marginTop="50dp"
+        style="@style/TextViewButton"
+        android:text="@string/scan_qrcode"
+        />
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/generate_qrcode"
+        style="@style/TextViewButton"
+        android:text="@string/generate_qrcode"
+        />
+
+</LinearLayout>

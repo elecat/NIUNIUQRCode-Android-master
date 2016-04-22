@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QR Code Scanner</string>
+    <string name="scan_qrcode">Scan QR Code</string>
+    <string name="scan">Scan</string>
+    <string name="scan_result">Scan Result</string>
+    <string name="generate_qrcode">Generate QR Ccode</string>
+    <string name="save_picture">Save to Phone</string>
+    <string name="save_picture_success">Save success</string>
+    <string name="save_picture_failed">Save failure</string>
+    <string name="album">Album</string>
+    <string name="copy_content">Copy content</string>
+    <string name="open_link">Open link</string>
+    <string name="below_scan_window">Align QR Code/barcode within frame to scan</string>
+    <string name="generate_QR_Code_fail">Please input content</string>
+    <string name="picture_has_been_save_to">Picture has been save to</string>
+    <string name="dir">/ Dir</string>
+    <string name="hint_please_input">Please input...</string>
+    <string name="apply_for_perssion">"Quick Scan QR Code" applies for the permission of Use camera</string>
+    <string name="copy_successful">Copy success</string>
+    <string name="exit_warning">Click one more time back button will Exit the app</string>
+    <string name="copy_warning">Sorry, please generate QR Code first.</string>
+    <string name="paste_message">Do you want to paste the content of the clipboard?</string>
+    <string name="ok">OK</string>
+    <string name="cancle">Cancle</string>
+    <string name="qrcode">QR Code</string>
+    <string name="can_not_scan">Sorry, disable to scan this picture</string>
+    <string name="input_lenght_out_of_range_warning">Input length out of range. Can not input more than 200 letters.</string>
+
+</resources>

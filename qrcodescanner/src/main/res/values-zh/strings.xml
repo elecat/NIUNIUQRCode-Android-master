@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">快扫二维码</string>
+    <string name="scan_qrcode">扫描二维码</string>
+    <string name="scan">扫描</string>
+    <string name="scan_result">扫描结果</string>
+    <string name="generate_qrcode">创建二维码</string>
+    <string name="save_picture">保存图片</string>
+    <string name="save_picture_success">保存图片成功</string>
+    <string name="save_picture_failed">保存图片失败</string>
+    <string name="album">相册</string>
+    <string name="copy_content">复制结果</string>
+    <string name="open_link">打开链接</string>
+    <string name="below_scan_window">将二维码/条形码放入框内，即可自动扫描</string>
+    <string name="generate_QR_Code_fail">请输入内容</string>
+    <string name="picture_has_been_save_to">图片已保存至</string>
+    <string name="dir">/ 文件夹</string>
+    <string name="hint_please_input">请输入...</string>
+    <string name="apply_for_perssion">"快扫二维码" 需要获取打开相机的权限</string>
+    <string name="copy_successful">复制成功</string>
+    <string name="exit_warning">再按一次返回键退出</string>
+    <string name="copy_warning">请先生成二维码再点击保存</string>
+    <string name="paste_message">是否要粘贴剪贴板的内容？</string>
+    <string name="ok">确定</string>
+    <string name="cancle">取消</string>
+    <string name="qrcode">二维码/条形码</string>
+    <string name="can_not_scan">对不起，该图片不能识别</string>
+    <string name="input_lenght_out_of_range_warning">请不要输入超过100个中文字符</string>
+</resources>

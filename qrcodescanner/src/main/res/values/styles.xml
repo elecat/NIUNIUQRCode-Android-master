@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- toolbar（actionbar）背景颜色 -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <!-- 底部导航栏的颜色 -->
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">
+            @color/navigationBarColor
+        </item>
+        <!-- Toolbar Theme / Apply white arrow -->
+        <item name="colorControlNormal">@android:color/white</item>
+        <!--Navigation icon颜色设置-->
+        <item name="drawerArrowStyle">@style/AppTheme.MyDrawerArrowStyle</item>
+    </style>
+
+    <style name="TextViewButton" parent="MatchWrap">
+        <item name="android:textSize">@dimen/textViewButtonTextSize</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_btn_blue</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">@dimen/textViewButtonMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/textViewButtonMarginRight</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <!--加入一個新的 navigation drarwer 的風格-->
+    <style name="AppTheme.MyDrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <!--將 spinBars 屬性設定為 false-->
+        <item name="spinBars">false</item>
+        <!--設定 drawer arrow 的顏色-->
+        <item name="color">@android:color/white</item>
+    </style>
+
+</resources>

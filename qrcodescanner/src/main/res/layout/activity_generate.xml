@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none"
+        android:fadingEdgeLength="0dp"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|top"
+            android:orientation="vertical"
+            >
+
+            <EditText
+                android:id="@+id/et_chinese_encode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingTop="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:hint="@string/hint_please_input"
+                android:maxLength="200"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/encode_qrcode"
+                style="@style/TextViewButton"
+                android:layout_marginTop="10dp"
+                android:onClick="onClick"
+                android:text="@string/generate_qrcode" />
+
+            <ImageView
+                android:id="@+id/show_encode_result_iv"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/save_picture_tv"
+                style="@style/TextViewButton"
+                android:layout_marginTop="10dp"
+                android:onClick="onClick"
+                android:text="@string/save_picture"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+
+
+
+     </ScrollView>
+
+
+    </LinearLayout>

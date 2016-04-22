@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#08a3da</color>
+    <color name="colorPrimary">#0cb2ed</color>
+    <color name="navigationBarColor">#109fd4</color>
+    <color name="colorPrimaryDarkTrans">#67bddc</color>
+    <color name="scantextViewsize">#ffffff</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>

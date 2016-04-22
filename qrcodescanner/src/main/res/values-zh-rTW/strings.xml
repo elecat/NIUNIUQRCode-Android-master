@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">快掃二維碼</string>
+    <string name="scan_qrcode">掃描二維碼</string>
+    <string name="scan">掃描</string>
+    <string name="scan_result">掃描結果</string>
+    <string name="generate_qrcode">創建二維碼</string>
+    <string name="save_picture">保存圖片</string>
+    <string name="save_picture_success">保存圖片成功</string>
+    <string name="save_picture_failed">保存圖片失敗</string>
+    <string name="album">相冊</string>
+    <string name="copy_content">復制結果</string>
+    <string name="open_link">打開鏈接</string>
+    <string name="below_scan_window">將二維碼/條形碼放入框內，即可自動掃描</string>
+    <string name="generate_QR_Code_fail">請輸入內容</string>
+    <string name="picture_has_been_save_to">圖片已保存至</string>
+    <string name="dir">/ 文件夾</string>
+    <string name="hint_please_input">請輸入...</string>
+    <string name="apply_for_perssion">"快掃二維碼" 需要獲取打開相機的權限</string>
+    <string name="copy_successful">復制成功</string>
+    <string name="exit_warning">再按一次返回鍵退出</string>
+    <string name="copy_warning">請先生成二維碼再點擊保存</string>
+    <string name="paste_message">是否要粘貼剪貼板的內容？</string>
+    <string name="ok">確定</string>
+    <string name="cancle">取消</string>
+    <string name="qrcode">二維碼/條形碼</string>
+    <string name="can_not_scan">對不起，該圖片不能識別</string>
+    <string name="input_lenght_out_of_range_warning">請不要輸入超過100個中文字符</string>
+</resources>
