@@ -1,5 +1,6 @@
 # qrcodescanner
 this is a QR Code scanner and a QR Code generater
+
 ##快扫二维码
 
 一款基zxing的二维码扫描软件。可扫描二维码，扫描条形码，解析二维码图片，生成二维码。
