@@ -10,3 +10,5 @@
 [火速跳转 | Download-APK](http://pkg3.fir.im/a0e7ad03f2b8d12a0b1fdfceb7313ee321ba8786.apk?attname=qrcodescanner-fr.apk_1.0.apk)
 
 ![下载](http://firimg.fir.im/655566eaee3fb90472e51199b762984deca28812?imageView2/0/w/426/h/240)
+
+##E-mail: elecat@126.com
